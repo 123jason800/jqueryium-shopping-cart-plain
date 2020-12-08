@@ -1,0 +1,13 @@
+/* Google Font */
+body {
+    font-family: 'Slabo 27px', serif;
+    font-size: 24px;
+
+}
+
+.btnCalc,
+.table,
+ form {
+    margin-bottom: 100px;
+}
+
