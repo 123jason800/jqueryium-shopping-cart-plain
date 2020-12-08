@@ -29,7 +29,7 @@ var getTotal = function() {
    $('tr').slice(1).each(function(){
      sum += parseFloat($(this).children('td').eq(3).text().replace("$",""));
    });
-   totalDisplay.text(`$ ${sum.toFixed(2)}`);
+   totalDisplay.text(`Total: $ ${sum.toFixed(2)}`);
 }
 
 // Event Listeners
